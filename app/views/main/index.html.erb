@@ -8,13 +8,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="">
 	<meta name="description" content="">
-
+<!--
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/nivo-lightbox.css">
 	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css"> -->
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -71,7 +71,7 @@
 
 
 <!-- home section -->
-<section id="home" class="parallax-section">
+<section id="home" class="parallax-section" >
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
@@ -96,31 +96,31 @@
 			</div>
 		</div>
 			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
-				<a href="images/gallery-img1.jpg" data-lightbox-gallery="zenda-gallery"><img src="images/gallery-img1.jpg" alt="gallery img"></a>
+				<a href="images/gallery-img1.jpg" data-lightbox-gallery="zenda-gallery"><%=image_tag 'gallery-img1.jpg'%></a>
 				<div>
 					<h3>Lemon-Rosemary Prawn</h3>
 					<span>Seafood / Shrimp / Lemon</span>
 				</div>
-				<a href="images/gallery-img2.jpg" data-lightbox-gallery="zenda-gallery"><img src="images/gallery-img2.jpg" alt="gallery img"></a>
+				<a href="images/gallery-img2.jpg" data-lightbox-gallery="zenda-gallery"><%=image_tag 'gallery-img2.jpg'%></a>
 				<div>
 					<h3>Lemon-Rosemary Vegetables</h3>
 					<span>Tomato / Rosemary / Lemon</span>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-				<a href="images/gallery-img3.jpg" data-lightbox-gallery="zenda-gallery"><img src="images/gallery-img3.jpg" alt="gallery img"></a>
+				<a href="images/gallery-img3.jpg" data-lightbox-gallery="zenda-gallery"><%=image_tag 'gallery-img3.jpg'%></a>
 				<div>
 					<h3>Lemon-Rosemary Bakery</h3>
 					<span>Bread / Rosemary / Orange</span>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
-				<a href="images/gallery-img4.jpg" data-lightbox-gallery="zenda-gallery"><img src="images/gallery-img4.jpg" alt="gallery img"></a>
+				<a href="images/gallery-img4.jpg" data-lightbox-gallery="zenda-gallery"><%=image_tag 'gallery-img4.jpg'%></a>
 				<div>
 					<h3>Lemon-Rosemary Salad</h3>
 					<span>Chicken / Rosemary / Green</span>
 				</div>
-				<a href="images/gallery-img5.jpg" data-lightbox-gallery="zenda-gallery"><img src="images/gallery-img5.jpg" alt="gallery img"></a>
+				<a href="images/gallery-img5.jpg" data-lightbox-gallery="zenda-gallery"><%=image_tag 'gallery-img1.jpg'%></a>
 				<div>
 					<h3>Lemon-Rosemary Pizza</h3>
 					<span>Pasta / Rosemary / Green</span>
@@ -153,7 +153,8 @@
 							<li>
 								<div class="fh5co-food-desc">
 									<figure>
-										<img src="images/res_img_5.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+
+										<%=image_tag 'res_img_5.jpg'%>
 									</figure>
 									<div>
 										<h3>Pineapple Juice</h3>
@@ -167,7 +168,8 @@
 							<li>
 								<div class="fh5co-food-desc">
 									<figure>
-										<img src="images/res_img_6.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+
+										<%=image_tag 'res_img_6.jpg'%>
 									</figure>
 									<div>
 										<h3>Green Juice</h3>
@@ -181,7 +183,8 @@
 							<li>
 								<div class="fh5co-food-desc">
 									<figure>
-										<img src="images/res_img_7.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										<%=image_tag 'res_img_7.jpg'%>
+
 									</figure>
 									<div>
 										<h3>Soft Drinks</h3>
@@ -195,7 +198,8 @@
 							<li>
 								<div class="fh5co-food-desc">
 									<figure>
-										<img src="images/res_img_5.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+
+										<%=image_tag 'res_img_5.jpg'%>
 									</figure>
 									<div>
 										<h3>Carlo Rosee Drinks</h3>
@@ -420,17 +424,20 @@
 				<hr>
 			</div>
 			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
-				<img src="images/gallery-img3.jpg" class="img-responsive center-block" alt="team img">
+				<%=image_tag('gallery-img3.jpg', class:"img-responsive center-block")%>
+
 				<h4>Refrigerios</h4>
 				<h3>Tentapies</h3>
 			</div>
 			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-				<img src="images/gallery-img1.jpg" class="img-responsive center-block" alt="team img">
+			<%=image_tag('gallery-img1.jpg', class:"img-responsive center-block")%>
 				<h4>Reuniones</h4>
 				<h3>Menús especiales</h3>
 			</div>
 			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
-				<img src="images/gallery-img2.jpg" class="img-responsive center-block" alt="team img">
+				
+				<%=image_tag('gallery-img2.jpg', class:"img-responsive center-block")%>
+
 				<h4>Especiales</h4>
 				<h3>Vegano, vegetariano, glutten free.</h3>
 			</div>
@@ -470,7 +477,7 @@
 
 
 <!-- footer section -->
-<footer class="parallax-section">
+<footer class="parallax-section" >
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
@@ -521,13 +528,13 @@
 </section>
 -->
 <!-- JAVASCRIPT JS FILES -->
-<script src="js/jquery.js"></script>
+<!-- <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.parallax.js"></script>
 <script src="js/smoothscroll.js"></script>
 <script src="js/nivo-lightbox.min.js"></script>
 <script src="js/wow.min.js"></script>
-<script src="js/custom.js"></script>
+<script src="js/custom.js"></script> -->
 
 </body>
 </html>

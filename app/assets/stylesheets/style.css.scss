@@ -123,7 +123,8 @@ hr {
 
 /* home section */
 #home {
-  background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+  background: url("home-bg.jpg") 50% 0 repeat-y fixed;
+
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
@@ -246,7 +247,7 @@ hr {
 
 /* footer section */
 footer {
-  background: url('../images/footer-bg.jpg') 50% 0 repeat-y fixed;
+	background: url('footer-bg.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
@@ -547,7 +548,7 @@ footer .fa {
 #fh5co-about .fh5co-text {
   padding: 2em 6em;
   text-align: left;
-  background: #130d08 url(../images/wood_1.png) repeat;
+  background: #130d08 url('wood_1.png') repeat;
 }
 @media screen and (max-width: 1200px) {
   #fh5co-about .fh5co-text {
@@ -681,7 +682,7 @@ footer .fa {
 
 #fh5co-featured {
   padding: 7em 0;
-  background: #130d08 url(../images/wood_1.png) repeat;
+  background: #130d08 url('wood_1.png') repeat;
 }
 @media screen and (max-width: 768px) {
   #fh5co-featured {
@@ -698,7 +699,7 @@ footer .fa {
   width: 64px;
   position: absolute;
   content: "";
-  background: url(../images/0103-served-plate_64.png) no-repeat;
+  background: url('0103-served-plate_64.png') no-repeat;
   top: 0;
   left: 50%;
   margin-top: -50px;
@@ -919,7 +920,7 @@ footer .fa {
   width: 64px;
   position: absolute;
   content: "";
-  background: url(../images/0401-vegan.png) no-repeat;
+  background: url('0401-vegan.png') no-repeat;
   top: 0;
   left: 50%;
   margin-top: -50px;
@@ -950,7 +951,7 @@ footer .fa {
   padding-left: 50px;
 }
 #fh5co-menus .fh5co-food-menu h2.fh5co-drinks:before {
-  background: url(../images/0301-pina-colada.png) no-repeat;
+  background: url('0301-pina-colada.png') no-repeat;
   content: "";
   position: absolute;
   top: -20px;
@@ -962,7 +963,7 @@ footer .fa {
   padding-left: 80px;
 }
 #fh5co-menus .fh5co-food-menu h2.fh5co-dishes:before {
-  background: url(../images/0302-steak.png) no-repeat;
+  background: url('0302-steak.png') no-repeat;
   content: "";
   position: absolute;
   top: 0;
@@ -1055,7 +1056,7 @@ footer .fa {
   width: 49px;
   position: absolute;
   content: "";
-  background: url(../images/0402-chef.png) no-repeat;
+  background: url('0402-chef.png') no-repeat;
   top: 0;
   left: 50%;
   margin-top: -50px;
@@ -1149,7 +1150,7 @@ footer .fa {
   width: 61px;
   position: absolute;
   content: "";
-  background: url(../images/0203-coffee-love.png) no-repeat;
+  background: url('0203-coffee-love.png') no-repeat;
   top: 0;
   left: 50%;
   margin-top: -50px;
@@ -1473,16 +1474,16 @@ footer .fa {
   border-radius: 50%;
 }
 #fh5co-type h3.with-icon.icon-1:before, #fh5co-type h3.with-icon.icon-1::before {
-  background: url(../images/type-1.png) no-repeat center center;
+  background: url('type-1.png') no-repeat center center;
 }
 #fh5co-type h3.with-icon.icon-2:before, #fh5co-type h3.with-icon.icon-2::before {
-  background: url(../images/type-2.png) no-repeat center center;
+  background: url('type-2.png') no-repeat center center;
 }
 #fh5co-type h3.with-icon.icon-3:before, #fh5co-type h3.with-icon.icon-3::before {
-  background: url(../images/type-3.png) no-repeat center center;
+  background: url('type-3.png') no-repeat center center;
 }
 #fh5co-type h3.with-icon.icon-4:before, #fh5co-type h3.with-icon.icon-4::before {
-  background: url(../images/type-4.png) no-repeat center center;
+  background: url('type-4.png') no-repeat center center;
 }
 #fh5co-type p {
   color: rgba(255, 255, 255, 0.7);
